@@ -35,7 +35,7 @@ const Home = () => {
             <img src={linkedin} className='icon' alt="linkedin" />
           </ExternalLink>
           <CopyToClipboard text='mgrippo_11@hotmail.com'>
-            <img src={mail} className='icon' alt="mail" />
+            <img src={mail} className='icon mail' alt="mail" title='Copiar Mail'/>
           </CopyToClipboard>
         </aside>
       </div>
